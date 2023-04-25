@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="formulario.css" />
+    <title>Conversor de Moneda</title>
+</head>
+<body>
+    <h1>Conversor de Moneda</h1>
+    <label for="monto-origen">Monto a convertir:</label>
+    <input type="number" id="monto-origen">
+    <br>
+    <h3>Moneda de origen:</h3>
+    <input type="radio" id="dolar" name="moneda-origen">
+    <label for="dolar">Dólar</label>
+    <input type="radio" id="soles" name="moneda-origen">
+    <label for="soles">Soles</label>
+    <input type="radio" id="euros" name="moneda-origen">
+    <label for="euros">Euros</label>
+    <br>
+    <h3>Moneda de destino:</h3>
+    <input type="radio" id="dolar" name="moneda-destino">
+    <label for="dolar">Dólar</label>
+    <input type="radio" id="soles" name="moneda-destino">
+    <label for="soles">Soles</label>
+    <input type="radio" id="euros" name="moneda-destino">
+    <label for="euros">Euros</label>
+    <br>
+    <button id="calcular">Calcular</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+
